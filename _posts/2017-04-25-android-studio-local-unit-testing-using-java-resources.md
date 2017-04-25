@@ -15,6 +15,7 @@ description: 안드로이드 스튜디오에서 로컬 유닛테스팅 수행시
 2. 모듈의 build.gradle에 아래 스크립트 추가
 
 ```java
+
 android{
    ...
 }
@@ -26,11 +27,14 @@ task copyResDirectoryToClasses(type: Copy){
 
 // 내 경우는 app 모듈이 아닌 다른 library 모듈에서 수행해서 assembleDebug가 안되더라 build 태스크로 대체
 assembleDebug.dependsOn(copyResDirectoryToClasses)
+
 ```
 
 3. 코드에서 해당 리소스 읽어올때는 Class.getResource대신 Class.getClassLoader().getResource() 또는 Class.getClassLoader().getResourceAsStream() 사용
 
 ```java
+
 ClassLoader classLoader = obj.getClass().getClassLoader();
     URL resource = classLoader.getResource(fileName);
+    
 ```
