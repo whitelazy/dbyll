@@ -13,6 +13,7 @@ description: 안드로이드 스튜디오에서 로컬 유닛테스팅 수행시
 
 1. src/test/res 디렉토리 생성
 2. 모듈의 build.gradle에 아래 스크립트 추가
+
 ```java
 android{
    ...
@@ -28,6 +29,7 @@ assembleDebug.dependsOn(copyResDirectoryToClasses)
 ```
 
 3. 코드에서 해당 리소스 읽어올때는 Class.getResource대신 Class.getClassLoader().getResource() 또는 Class.getClassLoader().getResourceAsStream() 사용
+
 ```java
 ClassLoader classLoader = obj.getClass().getClassLoader();
     URL resource = classLoader.getResource(fileName);
