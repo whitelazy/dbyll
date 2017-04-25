@@ -41,7 +41,7 @@ description: 기술 블로그 모음 (가볍게 검색해서 찾는 내용들 �
 
 **Javascript & Node.js**
 
-[Node.js: 익스프레스 API 서버 테스트 코드 작성하기]
+[Node.js: 익스프레스 API 서버 테스트 코드 작성하기](http://blog.jeonghwan.net/%EC%9D%B5%EC%8A%A4%ED%94%84%EB%A0%88%EC%8A%A4-api-%EC%84%9C%EB%B2%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0/)
 
 **인프런 강좌 링크**
 
@@ -49,7 +49,7 @@ description: 기술 블로그 모음 (가볍게 검색해서 찾는 내용들 �
 
 [인프런 : 자바스크립트 언어 기본](https://www.inflearn.com/course/%EC%A7%80%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%96%B8%EC%96%B4-%EA%B8%B0%EB%B3%B8/)
 
-[인프런 : Node.js를 이용해 웹애플리케이션 만들기] (https://www.inflearn.com/course/nodejs-%EA%B0%95%EC%A2%8C-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/)
+[인프런 : Node.js를 이용해 웹애플리케이션 만들기](https://www.inflearn.com/course/nodejs-%EA%B0%95%EC%A2%8C-%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9/)
 
 [인프런 : 초보부터 개발자 취업까지!! 실전 자바 강좌](https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94-%EA%B0%95%EC%A2%8C/)
 
