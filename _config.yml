@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Whitelazy
+      title: 개발 노트
 
 description: Whitelazy's Blog
 author:
