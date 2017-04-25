@@ -8,7 +8,7 @@ description: 기술 블로그 모음 (가볍게 검색해서 찾는 내용들 �
 
 개발중 알게된 기술 자료들 모음
 
-**블로그**
+## 블로그
 
 [Realm.io (뉴스쪽에 볼거 많음)](https://news.realm.io/kr/news/)
 
@@ -21,13 +21,13 @@ description: 기술 블로그 모음 (가볍게 검색해서 찾는 내용들 �
 [김정환님 블로그 : 주로 js랑 노드 쪽?](http://blog.jeonghwan.net/)
 
 
-**강좌**
+## 강좌
 
 [생활 코딩](https://opentutorials.org/course/1)
 
 [인프런](https://www.inflearn.com/)
 
-**JAVA**
+## JAVA
 
 [RxJava 자료](https://brunch.co.kr/@yudong/33)
 
@@ -35,15 +35,15 @@ description: 기술 블로그 모음 (가볍게 검색해서 찾는 내용들 �
 
 [안드로이드에 테스트 도입하기](http://blog.dramancompany.com/2016/08/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%97%90-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0/)
 
-**C++**
+## C++
 
 [알고리즘](http://ddmix.blogspot.kr/2014/11/cppalgo-1-introduction.html)
 
-**Javascript & Node.js**
+## Javascript & Node.js
 
 [Node.js: 익스프레스 API 서버 테스트 코드 작성하기](http://blog.jeonghwan.net/%EC%9D%B5%EC%8A%A4%ED%94%84%EB%A0%88%EC%8A%A4-api-%EC%84%9C%EB%B2%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0/)
 
-**인프런 강좌 링크**
+## 인프런 강좌 링크
 
 [인프런 : 파이썬을 이용한 웹 크롤링 어플리케이션 만들기](https://www.inflearn.com/course/%EC%9B%B9-%ED%81%AC%EB%A1%A4%EB%A7%81web-crawling-%EC%96%B4%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EB%A7%8C%EB%93%A4%EA%B8%B0/)
 
