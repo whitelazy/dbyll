@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: Whitelazy
 google_analytics: Whitelazy
-title: Whitelazy
+title: 개발 노트
 
 defaults:
   -
