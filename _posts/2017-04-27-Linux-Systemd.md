@@ -176,7 +176,8 @@ Environment="ONE=one" 'TWO=two two'
 
 - EnvironmentFile=
 
-해당 유닛에서 사용할 환경 변수 파일을 선언한다. 환경 변수 파일에서 "#' 와 ";" 로 시작되는 라인은 주석으로 처리된다. "Environment=" 와 같이 사용하는 경우 "Environment=" 옵션값이 먹게 된다. 또한 반드시 “Exec*=” 옵션보다 상단에 위치해야 한다.
+해당 유닛에서 사용할 환경 변수 파일을 선언한다. 환경 변수 파일에서 "#' 와 ";" 로 시작되는 라인은 주석으로 처리된다. 
+"Environment=" 와 같이 사용하는 경우 "Environment=" 옵션값이 먹게 된다. 또한 반드시 “Exec*=” 옵션보다 상단에 위치해야 한다.
 
 
 - ExecStart=
@@ -198,7 +199,7 @@ ExecStart="command 2”
 "control-group" 은 해당 유닛의 그룹까지 모두 중지 시킨다. 기본값이다.
 "process" 은 해당 유닛 즉 메인 프로세스만 중지 시킨다.
 "none" 은 아무런 액션을 하지 않는다.
-* 그룹이란 유닛과 그 유닛에 종속성을 가지는 유닛의 묶음을 뜻한다.
+= 그룹이란 유닛과 그 유닛에 종속성을 가지는 유닛의 묶음을 뜻한다.
 
 
 - ExecReload=
@@ -221,17 +222,17 @@ ExecStart="command 2”
 유닛이 시작하는데 대기하는 시간을 설정한다. 기본값은 90초(90s)이다. 만일 Type=oneshot 인 경우 해당 설정이 해당 설정이 적용되지 않는다. 만일 시작 시간을 대기하지 않고 무한정 리턴값을 기다리게 설정할려면 "TimeoutStartSec=0" 으로 설정해 주면 된다.
 
 
--TimeoutStopSec=
+- TimeoutStopSec=
 
 옵션을 중지하는데 대기하는 시간을 설정한다. 기본값은 90초(90s)로 위의 "TimeoutStartSec=" 옵션과 동일하게 "TimeoutStopSec=0" 으로 설정하면 무한정 리턴값을 기다리게 된다. "TimeoutStopSec" 옵션에 설정된 값 안에 종료되지 않으면 SIGKILL 시그널을 보내서 강제로 종료하게 된다.
 
 
--TimeoutSec=
+- TimeoutSec=
 
 "TimeoutStartSec=" 와 "TimeoutStopSec=" 을 동시에 설정한다.
 
 
--WatchdogSec=
+- WatchdogSec=
 
 유닛이 시작된 이후 유닛 상태 감시(keep-alive ping)할때의 상태 값을 리턴하는데 대기하는 시간을 설정한다.  "Restart=" 옵션이 "on-failure", "always" 인 경우 유닛을 자동으로 재시작하게되고 이때 "WatchdogSec=" 설정을 해주어야 한다. 기본값은 "0" 으로 유닛 상태 감시를 사용하지 않는다.
 
