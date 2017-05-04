@@ -33,6 +33,7 @@ description: Qt Creator에서 poky sdk 빌드 설정하기
 1. poky sysroot 의 x86용 arm cross compiler 선택
  > /opt/poky/1.7.1/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc
 ![compiler](/assets/images/qtcreator_add_compilers.png)
+
 ## 디버거 추가
 1. menu options - Build & Run - Debuggers
 1. Add
