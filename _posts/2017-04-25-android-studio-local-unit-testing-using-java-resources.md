@@ -34,5 +34,6 @@ javaPreCompileDebugUnitTest.dependsOn(copyResDirectoryToClasses)
 
 ~~~java
     ClassLoader classLoader = obj.getClass().getClassLoader();
-    URL resource = classLoader.getResource(fileName); 
+    // 경로는 res/xxx.txt 식으로 호출
+    URL resource = classLoader.getResource("res/fileName"); 
 ~~~
