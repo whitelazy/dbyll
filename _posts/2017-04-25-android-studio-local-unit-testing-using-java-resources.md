@@ -24,8 +24,10 @@ task copyResDirectoryToClasses(type: Copy){
     into "${buildDir}/intermediates/classes/test/debug/res"
 }
 
-// 내 경우는 app 모듈이 아닌 다른 library 모듈에서 수행해서 assembleDebug가 안되더라 build 태스크로 대체
-assembleDebug.dependsOn(copyResDirectoryToClasses)
+// androidTest가 아닌 일반 test 돌릴때는 assembleDebug task를 안도니까 javaPreCompileDebugUnitTest 일때 복사하도록
+afterEvaluate() {
+javaPreCompileDebugUnitTest.dependsOn(copyResDirectoryToClasses)
+}
 ~~~
 
 3. 코드에서 해당 리소스 읽어올때는 Class.getResource대신 Class.getClassLoader().getResource() 또는 Class.getClassLoader().getResourceAsStream() 사용
